@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Muhammad Rizqi Febrian | Portofolio Ilmu Komputer UMKU</title>
+  <meta name="description" content="Portofolio resmi Muhammad Rizqi Febrian - Mahasiswa Ilmu Komputer di Universitas Muhammadiyah Kudus. Fokus pada Web Development, Desain Grafis, dan Pengalaman Organisasi & Kepanitiaan.">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glow ambient-1"></div>
+  <div class="ambient-glow ambient-2"></div>
+  <div class="ambient-glow ambient-3"></div>
+
+  <!-- ==========================================================================
+       NAVBAR
+       ========================================================================== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#beranda" class="nav-brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <span>MRF<span class="gradient-accent-text">.dev</span></span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#beranda" class="nav-link active">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#pengalaman" class="nav-link">Pengalaman</a>
+        <a href="#proyek" class="nav-link">Proyek</a>
+        <a href="#keahlian" class="nav-link">Keahlian</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="#kontak" class="btn btn-primary btn-sm">
+          <i class="fa-regular fa-paper-plane"></i> Hubungi Saya
+        </a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero" id="beranda">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge-wrap">
+          <span class="badge">
+            <i class="fa-solid fa-sparkles"></i> Mahasiswa Aktif
+          </span>
+          <span class="badge badge-cyan">
+            <i class="fa-solid fa-graduation-cap"></i> S1 Ilmu Komputer
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Muhammad Rizqi <span class="gradient-text">Febrian</span>
+        </h1>
+
+        <div class="hero-subtitle">
+          <span>Web Developer</span>
+          <span>•</span>
+          <span>Graphic Designer</span>
+        </div>
+
+        <div class="hero-univ-tag">
+          <i class="fa-solid fa-building-columns"></i>
+          <span>Universitas Muhammadiyah Kudus (UMKU)</span>
+        </div>
+
+        <p class="hero-description">
+          Menekuni dunia teknologi digital dengan keahlian dalam perancangan website yang fungsional serta eksplorasi desain grafis kreatif. Aktif dalam kegiatan organisasi dan kepanitiaan kampus untuk mengasah kepemimpinan dan kolaborasi tim.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#proyek" class="btn btn-primary">
+            <i class="fa-solid fa-layer-group"></i> Lihat Portofolio
+          </a>
+          <a href="#kontak" class="btn btn-secondary">
+            <i class="fa-regular fa-comment-dots"></i> Mari Terhubung
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <span>Sosial Media:</span>
+          <a href="https://github.com/MrfNayr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="mailto:mrfrian9@gmail.com" class="social-icon-btn" title="Email">
+            <i class="fa-regular fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual (Foto Profil) -->
+      <div class="hero-visual">
+        <div class="photo-card-wrapper">
+          <div class="photo-glow-ring"></div>
+          
+          <!-- Floating Status Badge 1 -->
+          <div class="floating-card float-top-right">
+            <div class="floating-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="floating-text">
+              <h4>Ilmu Komputer</h4>
+              <p>UMKU Kudus</p>
+            </div>
+          </div>
+
+          <!-- Profile Photo Frame -->
+          <div class="photo-container">
+            <img src="foto/profile.png" alt="Muhammad Rizqi Febrian" class="profile-img">
+          </div>
+
+          <!-- Floating Status Badge 2 -->
+          <div class="floating-card float-bottom-left">
+            <div class="floating-icon icon-code">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="floating-text">
+              <h4>Web & Desain</h4>
+              <p>Creative & Technical</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT SECTION
+       ========================================================================== -->
+  <section class="about-section" id="tentang">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title"><i class="fa-solid fa-user"></i> Tentang Saya</span>
+        <h2 class="section-title">Dedikasi Pada <span class="gradient-text">Teknologi & Visual</span></h2>
+        <p class="section-desc">Mengenal lebih dekat latar belakang akademis, minat di bidang IT, dan visi pengembangan diri.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Halo, Saya Muhammad Rizqi Febrian!</h3>
+          <p>
+            Saya adalah seorang mahasiswa program studi <strong>Ilmu Komputer</strong> di <strong>Universitas Muhammadiyah Kudus (UMKU)</strong> yang memiliki antusiasme tinggi terhadap pengembangan perangkat lunak, pemrograman web, dan seni visual desain grafis.
+          </p>
+          <p>
+            Bagi saya, perpaduan antara logika pemrograman dan estetika visual menghasilkan solusi digital yang tidak hanya berkinerja andal, tetapi juga ramah bagi pengguna (user-friendly) dan menarik dipandang.
+          </p>
+
+          <div class="edu-highlight">
+            <div class="edu-icon">
+              <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <div class="edu-info">
+              <h4>S1 Ilmu Komputer</h4>
+              <p>Universitas Muhammadiyah Kudus (UMKU) • Mahasiswa Aktif</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+            <div class="stat-num">Website</div>
+            <div class="stat-label">Pengembangan Proyek Web Responsif & Fungsional</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-palette"></i></div>
+            <div class="stat-num">Desain Grafis</div>
+            <div class="stat-label">Branding, Poster, Banner, & Antarmuka UI/UX</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-sitemap"></i></div>
+            <div class="stat-num">Organisasi</div>
+            <div class="stat-label">Pengalaman Struktural & Leadership Kampus</div>
+          </div>
+
+          <div class="stat-item">
+            <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+            <div class="stat-num">Kepanitiaan</div>
+            <div class="stat-label">Manajemen Acara, Divisi Acara & Publikasi Dokumentasi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EXPERIENCE SECTION (ORGANISASI & KEPANITIAAN)
+       ========================================================================== -->
+  <section class="experience-section" id="pengalaman">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title"><i class="fa-solid fa-briefcase"></i> Rekam Jejak</span>
+        <h2 class="section-title">Pengalaman <span class="gradient-text">Organisasi & Kepanitiaan</span></h2>
+        <p class="section-desc">Keterlibatan aktif dalam membangun kolaborasi, kepemimpinan, dan menyukseskan berbagai kegiatan kampus.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-controls">
+        <button class="filter-btn exp-filter-btn active" data-filter="all">
+          <i class="fa-solid fa-list-ul"></i> Semua Pengalaman
+        </button>
+        <button class="filter-btn exp-filter-btn" data-filter="organisasi">
+          <i class="fa-solid fa-users"></i> Organisasi
+        </button>
+        <button class="filter-btn exp-filter-btn" data-filter="kepanitiaan">
+          <i class="fa-solid fa-calendar-day"></i> Kepanitiaan
+        </button>
+      </div>
+
+      <!-- Experience Cards Grid -->
+      <div class="experience-grid">
+        <!-- Card 1: Organisasi -->
+        <div class="exp-card" data-category="organisasi">
+          <div class="exp-card-header">
+            <span class="badge exp-badge-type">Organisasi</span>
+            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 2026 - Sekarang</span>
+          </div>
+          <h3 class="exp-role">Wakil Ketua Himpunan Mahasiswa</h3>
+          <div class="exp-org">
+            <i class="fa-solid fa-building-flag"></i> Himpunan Mahasiswa Ilmu Komputer (HIMAILKOM) UMKU
+          </div>
+          <p class="exp-desc">
+            Bertugas sebagai penghubung antara pengurus dan anggota, mengkoordinasikan program kerja, serta memimpin rapat dan diskusi strategis untuk pengembangan organisasi.
+          </p>
+          <div class="exp-tags">
+            <span class="exp-tag">Leadership</span>
+            <span class="exp-tag">Communication</span>
+            <span class="exp-tag">Teamwork</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Organisasi -->
+        <div class="exp-card" data-category="organisasi">
+          <div class="exp-card-header">
+            <span class="badge exp-badge-type">Organisasi</span>
+            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 2025 - 2026</span>
+          </div>
+          <h3 class="exp-role">Anggota Divisi Eksternal</h3>
+          <div class="exp-org">
+            <i class="fa-solid fa-building-flag"></i> Himpunan Mahasiswa Ilmu Komputer (HIMAILKOM) UMKU
+          </div>
+          <p class="exp-desc">
+            Mengelola hubungan eksternal dengan pihak kampus dan organisasi lain, menyusun proposal kerjasama, serta mendukung kegiatan promosi dan publikasi program kerja himpunan.
+          </p>
+          <div class="exp-tags">
+            <span class="exp-tag">Kerjasama</span>
+            <span class="exp-tag">Komunikasi</span>
+            <span class="exp-tag">Partisipasi</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Kepanitiaan -->
+        <div class="exp-card" data-category="kepanitiaan">
+          <div class="exp-card-header">
+            <span class="badge badge-cyan exp-badge-type">Kepanitiaan</span>
+            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 2024</span>
+          </div>
+          <h3 class="exp-role">Sie Publikasi, Dekorasi & Dokumentasi (Pubdekdok)</h3>
+          <div class="exp-org">
+            <i class="fa-solid fa-award"></i> Seminar Nasional Teknologi Informasi & AI
+          </div>
+          <p class="exp-desc">
+            Merancang identitas visual acara mulai dari poster promosi, backdrop panggung, feed Instagram, hingga sertifikat peserta. Bertanggung jawab atas dokumentasi visual selama acara berlangsung.
+          </p>
+          <div class="exp-tags">
+            <span class="exp-tag">Desain Poster</span>
+            <span class="exp-tag">Fotografi & Dokumentasi</span>
+            <span class="exp-tag">Canva & Photoshop</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Kepanitiaan -->
+        <div class="exp-card" data-category="kepanitiaan">
+          <div class="exp-card-header">
+            <span class="badge badge-cyan exp-badge-type">Kepanitiaan</span>
+            <span class="exp-period"><i class="fa-regular fa-calendar"></i> 2023</span>
+          </div>
+          <h3 class="exp-role">Panitia Divisi Acara & Perlengkapan</h3>
+          <div class="exp-org">
+            <i class="fa-solid fa-award"></i> Masa Ta'aruf (MASTA) / Orientasi Mahasiswa Baru UMKU
+          </div>
+          <p class="exp-desc">
+            Mengkoordinasikan susunan jalannya kegiatan penyambutan mahasiswa baru, mengelola logistik kebutuhan perlengkapan, serta memastikan ketertiban dan kelancaran alur acara.
+          </p>
+          <div class="exp-tags">
+            <span class="exp-tag">Manajemen Acara</span>
+            <span class="exp-tag">Koordinasi Tim</span>
+            <span class="exp-tag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SECTION (WEBSITE & DESAIN GRAFIS)
+       ========================================================================== -->
+  <section class="projects-section" id="proyek">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title"><i class="fa-solid fa-diagram-project"></i> Portofolio Karya</span>
+        <h2 class="section-title">Proyek <span class="gradient-text">Website & Desain Grafis</span></h2>
+        <p class="section-desc">Kumpulan proyek pengembangan aplikasi web interaktif dan karya seni desain grafis yang telah saya kerjakan.</p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-controls">
+        <button class="filter-btn proj-filter-btn active" data-filter="all">
+          <i class="fa-solid fa-border-all"></i> Semua Karya
+        </button>
+        <button class="filter-btn proj-filter-btn" data-filter="web">
+          <i class="fa-solid fa-globe"></i> Website (Web Dev)
+        </button>
+        <button class="filter-btn proj-filter-btn" data-filter="desain">
+          <i class="fa-solid fa-pen-nib"></i> Desain Grafis
+        </button>
+      </div>
+
+      <!-- Project Cards Grid -->
+      <div class="projects-grid">
+        <!-- Project 1: Website -->
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder">
+              <i class="fa-solid fa-laptop-code"></i>
+              <span>Web Development</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge">Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sistem Informasi Portofolio & Profil</h3>
+            <p class="project-desc">
+              Website profil modern dengan arsitektur responsif, fitur dark mode glassmorphism, navigasi interaktif, dan integrasi formulir kontak langsung ke WhatsApp.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">HTML5</span>
+              <span class="tech-pill">CSS3 Glassmorphism</span>
+              <span class="tech-pill">JavaScript ES6</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Sistem Informasi Portofolio & Profil" 
+                 data-desc="Platform portofolio web modern yang dirancang untuk menampilkan identitas akademik, keahlian, dan rekam jejak secara interaktif dan profesional." 
+                 data-tags="HTML5, CSS3, JavaScript, Responsive Design"
+                 data-link="#">
+                <i class="fa-solid fa-eye"></i> Detail
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Website -->
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder">
+              <i class="fa-solid fa-database"></i>
+              <span>Web Application</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge">Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Aplikasi Web Manajemen Data Mahasiswa</h3>
+            <p class="project-desc">
+              Sistem pencatatan dan manajemen data akademik mahasiswa dengan fitur CRUD (Create, Read, Update, Delete), validasi data, dan dashboard analitik sederhana.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">PHP / Laravel</span>
+              <span class="tech-pill">MySQL</span>
+              <span class="tech-pill">Bootstrap / Tailwind</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Aplikasi Web Manajemen Data Mahasiswa" 
+                 data-desc="Aplikasi web dinamis dengan integrasi database MySQL untuk memudahkan pendataan, pencarian, dan pengelolaan data mahasiswa secara terstruktur." 
+                 data-tags="PHP, MySQL, Tailwind CSS, CRUD Engine"
+                 data-link="#">
+                <i class="fa-solid fa-eye"></i> Detail
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Website -->
+        <div class="project-card" data-category="web">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <span>Landing Page</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge">Website</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Landing Page Event & Workshop Kampus</h3>
+            <p class="project-desc">
+              Halaman promosi acara seminar dan workshop teknologi dengan countdown timer, rincian pembicara, jadwal sesi, serta formulir registrasi peserta online.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">HTML / CSS</span>
+              <span class="tech-pill">Tailwind CSS</span>
+              <span class="tech-pill">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Landing Page Event & Workshop Kampus" 
+                 data-desc="Landing page dengan konversi tinggi dan tampilan dinamis untuk mempublikasikan seminar teknologi informasi kampus." 
+                 data-tags="Tailwind CSS, JavaScript, UI Design"
+                 data-link="#">
+                <i class="fa-solid fa-eye"></i> Detail
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                <i class="fa-brands fa-github"></i> Repository
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: Desain Grafis -->
+        <div class="project-card" data-category="desain">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder design-bg">
+              <i class="fa-solid fa-palette"></i>
+              <span>Graphic Design</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge badge-cyan">Desain Grafis</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Desain Poster & Banner Seminar IT</h3>
+            <p class="project-desc">
+              Perancangan materi promosi visual cetak dan digital untuk acara seminar teknologi, memperhatikan hierarki tipografi, komposisi warna kontras, dan pesan yang informatif.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Adobe Photoshop</span>
+              <span class="tech-pill">Adobe Illustrator</span>
+              <span class="tech-pill">Canva</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Desain Poster & Banner Seminar IT" 
+                 data-desc="Karya desain poster dan banner promosi dengan konsep visual modern, perpaduan palet warna futuristik yang menarik perhatian target audiens mahasiswa." 
+                 data-tags="Poster Event, Tipografi, Banner Digital, Photoshop"
+                 data-link="#">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Lihat Detail
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5: Desain Grafis -->
+        <div class="project-card" data-category="desain">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder design-bg">
+              <i class="fa-solid fa-icons"></i>
+              <span>UI/UX Design</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge badge-cyan">Desain Grafis</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Eksplorasi UI/UX Mobile App Kampus</h3>
+            <p class="project-desc">
+              Prototipe antarmuka aplikasi seluler untuk informasi jadwal kuliah dan absensi mahasiswa, menggunakan prinsip design system konsisten dan kemudahan aksesibilitas.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Figma</span>
+              <span class="tech-pill">Wireframing</span>
+              <span class="tech-pill">Prototyping</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Eksplorasi UI/UX Mobile App Kampus" 
+                 data-desc="Rancangan desain antarmuka aplikasi mobile dengan user flow yang rapi, komponen interaktif, dan estetika minimalis." 
+                 data-tags="Figma, UI/UX, Prototype, Mobile App"
+                 data-link="#">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Lihat Detail
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6: Desain Grafis -->
+        <div class="project-card" data-category="desain">
+          <div class="project-thumb">
+            <div class="project-banner-placeholder design-bg">
+              <i class="fa-solid fa-bullhorn"></i>
+              <span>Branding & Feed</span>
+            </div>
+            <div class="project-badge-overlay">
+              <span class="badge badge-cyan">Desain Grafis</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Social Media Feed & Branding Template</h3>
+            <p class="project-desc">
+              Pembuatan template feed Instagram microblog dan konten edukasi seputar tips pemrograman dan teknologi komputer yang rapi dan terstruktur.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">Photoshop</span>
+              <span class="tech-pill">Figma</span>
+              <span class="tech-pill">Content Design</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link-btn btn-preview-project" 
+                 data-title="Social Media Feed & Branding Template" 
+                 data-desc="Koleksi template media sosial yang didesain untuk keperluan publikasi organisasi dan edukasi teknologi secara konsisten." 
+                 data-tags="Social Media Kit, Branding, Carousel Post"
+                 data-link="#">
+                <i class="fa-solid fa-magnifying-glass-plus"></i> Lihat Detail
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SKILLS & TOOLS SECTION
+       ========================================================================== -->
+  <section class="skills-section" id="keahlian">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title"><i class="fa-solid fa-sliders"></i> Kemampuan</span>
+        <h2 class="section-title">Keahlian & <span class="gradient-text">Tools yang Dikuasai</span></h2>
+        <p class="section-desc">Kombinasi kemampuan teknis pemrograman web, perangkat lunak desain kreatif, dan keahlian interpersonal.</p>
+      </div>
+
+      <div class="skills-wrapper">
+        <!-- Category 1: Web Development -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Web Development</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML5 & Semantic Web</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>CSS3 / Tailwind / Responsive</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript (ES6+)</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>PHP & MySQL Database</span>
+                <span>70%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 70%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-chips-wrapper">
+            <span class="tool-chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+            <span class="tool-chip"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="tool-chip"><i class="fa-solid fa-terminal"></i> VS Code</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Graphic Design -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-bezier-curve"></i>
+            </div>
+            <h3>Desain Grafis & UI</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Adobe Photoshop</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Figma (UI/UX & Prototyping)</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Adobe Illustrator / Vektor</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Canva & Rapid Visual Design</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-chips-wrapper">
+            <span class="tool-chip"><i class="fa-solid fa-vector-square"></i> Branding</span>
+            <span class="tool-chip"><i class="fa-solid fa-image"></i> Poster Design</span>
+            <span class="tool-chip"><i class="fa-solid fa-crop-simple"></i> Layout</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Soft Skills -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-lightbulb"></i>
+            </div>
+            <h3>Soft Skills & Nilai Diri</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Kerja Sama Tim & Kolaborasi</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Problem Solving & Logika</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 85%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Manajemen Waktu & Kepanitiaan</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Komunikasi & Adaptabilitas</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-bar-bg">
+                <div class="skill-bar-fill" style="width: 88%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-chips-wrapper">
+            <span class="tool-chip"><i class="fa-solid fa-comments"></i> Komunikasi</span>
+            <span class="tool-chip"><i class="fa-solid fa-users-gear"></i> Leadership</span>
+            <span class="tool-chip"><i class="fa-solid fa-bolt"></i> Fast Learner</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section class="contact-section" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-title"><i class="fa-solid fa-paper-plane"></i> Hubungi Saya</span>
+        <h2 class="section-title">Mari Berdiskusi & <span class="gradient-text">Berkolaborasi</span></h2>
+        <p class="section-desc">Terbuka untuk diskusi proyek website, kebutuhan desain grafis, maupun kolaborasi kepanitiaan dan organisasi.</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info-card">
+          <div>
+            <h3>Informasi Kontak</h3>
+            <p>Silakan hubungi saya melalui jalur komunikasi berikut atau kirim pesan langsung melalui formulir.</p>
+          </div>
+
+          <div class="contact-channels">
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" class="channel-item">
+              <div class="channel-icon">
+                <i class="fa-brands fa-whatsapp"></i>
+              </div>
+              <div class="channel-content">
+                <h4>WhatsApp</h4>
+                <span>+62 812-xxxx-xxxx</span>
+              </div>
+            </a>
+
+            <a href="mailto:mrfrian9@gmail.com" class="channel-item">
+              <div class="channel-icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="channel-content">
+                <h4>Email</h4>
+                <span>mrfrian9@gmail.com</span>
+              </div>
+            </a>
+
+            <div class="channel-item">
+              <div class="channel-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="channel-content">
+                <h4>Lokasi</h4>
+                <span>Kudus, Jawa Tengah, Indonesia</span>
+              </div>
+            </div>
+
+            <div class="channel-item">
+              <div class="channel-icon">
+                <i class="fa-solid fa-university"></i>
+              </div>
+              <div class="channel-content">
+                <h4>Kampus</h4>
+                <span>Universitas Muhammadiyah Kudus</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card">
+          <form id="contactForm" data-phone="6281234567890">
+            <div class="form-group">
+              <label for="senderName" class="form-label">Nama Lengkap</label>
+              <input type="text" id="senderName" class="form-input" placeholder="Masukkan nama Anda" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderEmail" class="form-label">Email atau Nomor Kontak</label>
+              <input type="text" id="senderEmail" class="form-input" placeholder="contoh: email@domain.com / 08123xxx" required>
+            </div>
+
+            <div class="form-group">
+              <label for="senderSubject" class="form-label">Subjek / Topik</label>
+              <input type="text" id="senderSubject" class="form-input" placeholder="contoh: Proyek Website / Kebutuhan Desain / Organisasi">
+            </div>
+
+            <div class="form-group">
+              <label for="senderMessage" class="form-label">Pesan</label>
+              <textarea id="senderMessage" class="form-textarea" placeholder="Tuliskan pesan atau ide kolaborasi Anda di sini..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-brands fa-whatsapp"></i> Kirim Pesan via WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       MODAL LIGHTBOX DETAIL PROYEK
+       ========================================================================== -->
+  <div class="modal-overlay" id="projectModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modalTitle">Detail Proyek</h3>
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="modal-img-wrap" style="display: none;">
+          <img id="modalImage" class="modal-img" src="" alt="Project Preview">
+        </div>
+        <p id="modalDescription" style="color: var(--text-muted); margin-bottom: 1.2rem; line-height: 1.6;"></p>
+        <div id="modalTags" style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;"></div>
+        <a id="modalLink" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" style="display: none;">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Kunjungi Tautan
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="nav-brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <span>Muhammad Rizqi Febrian</span>
+      </div>
+      <p class="footer-copy">
+        Ilmu Komputer • <span>Universitas Muhammadiyah Kudus (UMKU)</span>
+      </p>
+      <div class="footer-socials">
+        <a href="https://github.com/MrfNayr" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </div>
+      <p class="footer-copy" style="font-size: 0.8rem; margin-top: 0.5rem;">
+        &copy; <span id="currentYear">2026</span> Muhammad Rizqi Febrian. Seluruh hak cipta dilindungi.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
