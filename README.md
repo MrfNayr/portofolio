@@ -50,4 +50,13 @@ Portofolio web pribadi **Muhammad Rizqi Febrian**, mahasiswa S1 **Ilmu Komputer*
 
 ---
 
+## 📬 Kontak & Media Sosial
+- **LinkedIn**: [Muhammad Rizqi Febrian](https://www.linkedin.com/in/muhammad-rizqi-febrian-399848291/?isSelfProfile=true)
+- **Instagram**: [@mrf.nayr](https://instagram.com/mrf.nayr)
+- **GitHub**: [@MrfNayr](https://github.com/MrfNayr)
+- **Email**: [mrfrian9@gmail.com](mailto:mrfrian9@gmail.com)
+
+---
+
 © 2026 **Muhammad Rizqi Febrian** - Universitas Muhammadiyah Kudus
+
